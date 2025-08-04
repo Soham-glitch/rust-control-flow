@@ -59,4 +59,9 @@ fn main() {
         count+=1;
     }
     println!("final count = {count}");
+
+    let a = [10,30,40,50,20];
+    for collection in a {
+        println!("the value is {collection}");
+    }
 }
